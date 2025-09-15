@@ -12,3 +12,5 @@ set(CMAKE_CXX_MODULE_STD 1)
 project(hello_world LANGUAGES CXX)
 
 add_executable(hello hi.cpp)
+
+add_executable(async async.cpp)
